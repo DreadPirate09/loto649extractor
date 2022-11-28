@@ -12,13 +12,14 @@
         style="?android:spinnerStyle"
         android:layout_width="358dp"
         android:layout_height="92dp"
-        android:layout_marginBottom="564dp"
+        android:layout_marginBottom="524dp"
         android:onClick="openDatePicker"
         android:text="Ianuarie 01 2020:"
         android:textColor="@color/black"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -50,6 +51,8 @@
         android:id="@+id/textView4"
         android:layout_width="179dp"
         android:layout_height="51dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="16dp"
         android:background="#8000"
         android:paddingLeft="35dp"
         android:paddingTop="5dp"
